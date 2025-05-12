@@ -1,5 +1,5 @@
 name: バグを報告する
-about: できる限り詳細にご記入お願いいたします。
+description: できる限り詳細にご記入お願いいたします。
 type: Bug
 body:
   - type: textarea
