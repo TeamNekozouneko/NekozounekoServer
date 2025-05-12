@@ -1,0 +1,55 @@
+name: バグを報告する
+about: できる限り詳細にご記入お願いいたします。
+title: ''
+labels: ''
+assignees: ''
+body:
+  - type: textarea
+    id: describe
+    attributes:
+      label: どんなバグが発生しましたか？
+      description: 本来のするべき動作や挙動がわかれば記入してください。
+      placeholder: 例）本来ダイヤを掘ったら経験値が出ますが、効率強化5をつけた時だけ経験値が出ません。
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 再現方法がわかれば記入してください
+      description: ステップごとに書いていただいても大丈夫です。
+    validations:
+      required: false
+  - type: textarea
+    id: files
+    attributes:
+      label: スクリーンショットや動画があれば添付してください
+      description: 添付したものの説明があれば、同時に記入してください
+    validations:
+      required: false
+  - type: dropdown
+    id: device
+    attributes:
+      label: 何のデバイス（端末）を使用して発生しましたか？
+      multiple: true
+      options:
+        - Java Edition（Java版）
+        - Windows（統合版）
+        - スマートフォン（統合版)
+        - Switch（統合版）
+        - その他
+  - type: dropdown
+    id: joinmethod
+    attributes:
+      label: バグが発生する際、参加方法は何を利用していましたか？
+      multiple: true
+      options:
+        - 参加アドレス（nekozouneko.net/nekozouneko.com)
+        - フレンド申請（NekozounekoSRV）
+        - その他
+  - type: textarea
+    id: additional
+    attributes:
+      label: 備考欄
+      description: 上記のフォーム以外に記入したいものがあれば、こちらにお願いいたします。
+    validations:
+      required: false
