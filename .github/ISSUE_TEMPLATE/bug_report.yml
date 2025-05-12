@@ -1,8 +1,6 @@
 name: バグを報告する
 about: できる限り詳細にご記入お願いいたします。
-title: ''
-labels: ''
-assignees: ''
+type: Bug
 body:
   - type: textarea
     id: describe
