@@ -1,2 +1,4 @@
 # NekozounekoServer
-Nekozouneko Server のバグ管理用リポジトリ
+IssuesタブからNekozouneko Serverの報告されたバグと進捗が確認できます。  
+GitHubアカウントをお持ちの方は、テンプレートに従ってご投稿いただいてもご対応させていただきます。  
+DiscordのサポートセンターやTicketでご報告いただいたバグもIssuesに移動してご対応いたします。  
